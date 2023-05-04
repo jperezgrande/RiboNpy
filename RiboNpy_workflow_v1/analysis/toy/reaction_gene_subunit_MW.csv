@@ -1,0 +1,34 @@
+,name,gene_reaction_rule,subunit_num,subunit_mw
+FBA_num1,Fructose-bisphosphate aldolase,b2925,2,39.14726
+FBA_num2,Fructose-bisphosphate aldolase,b2097,10 ,38.10919
+PGI,Glucose-6-phosphate isomerase,b4025,2,61.52977
+PGL,6-phosphogluconolactonase,b0767,1,36.30764
+RPE,Ribulose 5-phosphate 3-epimerase,b3386,1,24.55425
+TALA_num1,Transaldolase,b0008,2,35.21925
+TALA_num2,Transaldolase,b2464,1 ,35.6588
+TKT1_num1,Transketolase,b2935,2,72.21174
+TKT1_num2,Transketolase,b2465,1 ,73.04272
+GND,Phosphogluconate dehydrogenase,b2029,2,51.48131
+G6PDH2r,Glucose 6-phosphate dehydrogenase,b1852,1,55.70444
+TKT2_num1,Transketolase,b2935,2,72.21174
+TKT2_num2,Transketolase,b2465,1 ,73.04272
+GLCptspp_num1,D-glucose transport via PEP:Pyr PTS (periplasm),( b2415 and b1101 and b2416 and b2417 ),( 1 and 2 and 2 and 1 ),( 9.11937 and 50.67655 and 63.56184 and 18.25107 )
+GLCptspp_num2,D-glucose transport via PEP:Pyr PTS (periplasm),( b2417 and b1621 and b2415 and b2416 ),( 1 and 1 and 1 and 2 ),18.25107 and 56.627 and 9.11937 and 63.56184
+GLCptspp_num3,D-glucose transport via PEP:Pyr PTS (periplasm),( b1817 and b2415 and b1819 and b1818 and b2416 ),( 2 and 1 and 2 and 1 and 2 ) ,35.04755 and 9.11937 and 30.95549 and 27.63578 and 63.56184
+PFK_num1,Phosphofructokinase,b3916,4,34.84204
+PFK_num2,Phosphofructokinase,b1723,2 ,32.45599
+RPI_num1,Ribose-5-phosphate isomerase,b2914,2,22.8604
+RPI_num2,Ribose-5-phosphate isomerase,b4090,2 ,16.07332
+FBA_reverse_num1,Fructose-bisphosphate aldolase,b2925,2,39.14726
+FBA_reverse_num2,Fructose-bisphosphate aldolase,b2097,10 ,38.10919
+PGI_reverse,Glucose-6-phosphate isomerase,b4025,2,61.52977
+RPE_reverse,Ribulose 5-phosphate 3-epimerase,b3386,1,24.55425
+TALA_reverse_num1,Transaldolase,b0008,2,35.21925
+TALA_reverse_num2,Transaldolase,b2464,1 ,35.6588
+TKT1_reverse_num1,Transketolase,b2935,2,72.21174
+TKT1_reverse_num2,Transketolase,b2465,1 ,73.04272
+G6PDH2r_reverse,Glucose 6-phosphate dehydrogenase,b1852,1,55.70444
+TKT2_reverse_num1,Transketolase,b2935,2,72.21174
+TKT2_reverse_num2,Transketolase,b2465,1 ,73.04272
+RPI_reverse_num1,Ribose-5-phosphate isomerase,b2914,2,22.8604
+RPI_reverse_num2,Ribose-5-phosphate isomerase,b4090,2 ,16.07332

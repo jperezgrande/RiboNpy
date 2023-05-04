@@ -1,0 +1,21 @@
+,name,gene_reaction_rule,subunit_mw,subunit_num
+FBA,Fructose-bisphosphate aldolase,b2925 or b2097,39.14726 or 38.10919 ,2 or 10 
+FBA_reverse,Fructose-bisphosphate aldolase,b2925 or b2097,39.14726 or 38.10919 ,2 or 10 
+G6PDH2r,Glucose 6-phosphate dehydrogenase,b1852,55.70444,1
+G6PDH2r_reverse,Glucose 6-phosphate dehydrogenase,b1852,55.70444,1
+GLCptspp,D-glucose transport via PEP:Pyr PTS (periplasm),( b2415 and b1101 and b2416 and b2417 ) or ( b2417 and b1621 and b2415 and b2416 ) or ( b1817 and b2415 and b1819 and b1818 and b2416 ),( 9.11937 and 50.67655 and 63.56184 and 18.25107 ) or ( 18.25107 and 56.627 and 9.11937 and 63.56184 ) or ( 35.04755 and 9.11937 and 30.95549 and 27.63578 and 63.56184 ) ,( 1 and 2 and 2 and 1 ) or ( 1 and 1 and 1 and 2 ) or ( 2 and 1 and 2 and 1 and 2 ) 
+GND,Phosphogluconate dehydrogenase,b2029,51.48131,2
+PFK,Phosphofructokinase,b3916 or b1723,34.84204 or 32.45599 ,4 or 2 
+PGI,Glucose-6-phosphate isomerase,b4025,61.52977,2
+PGI_reverse,Glucose-6-phosphate isomerase,b4025,61.52977,2
+PGL,6-phosphogluconolactonase,b0767,36.30764,1
+RPE,Ribulose 5-phosphate 3-epimerase,b3386,24.55425,1
+RPE_reverse,Ribulose 5-phosphate 3-epimerase,b3386,24.55425,1
+RPI,Ribose-5-phosphate isomerase,b2914 or b4090,22.8604 or 16.07332 ,2 or 2 
+RPI_reverse,Ribose-5-phosphate isomerase,b2914 or b4090,22.8604 or 16.07332 ,2 or 2 
+TALA,Transaldolase,b0008 or b2464,35.21925 or 35.6588 ,2 or 1 
+TALA_reverse,Transaldolase,b0008 or b2464,35.21925 or 35.6588 ,2 or 1 
+TKT1,Transketolase,b2935 or b2465,72.21174 or 73.04272 ,2 or 1 
+TKT1_reverse,Transketolase,b2935 or b2465,72.21174 or 73.04272 ,2 or 1 
+TKT2,Transketolase,b2935 or b2465,72.21174 or 73.04272 ,2 or 1 
+TKT2_reverse,Transketolase,b2935 or b2465,72.21174 or 73.04272 ,2 or 1 

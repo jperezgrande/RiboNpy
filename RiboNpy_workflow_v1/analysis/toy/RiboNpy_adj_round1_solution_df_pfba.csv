@@ -1,0 +1,64 @@
+,fluxes,equ,kcat,MW,kcat_MW
+GLCpts_num1,10.0,glc__D_e + pep_c --> g6p_c + pyr_c,,,
+PGI,10.0,g6p_c --> f6p_c,25560.0,36.55148816,699.2875334682407
+PFK_num1,6.666666666666667,atp_c + f6p_c --> adp_c + fdp_c + h_c,100080.0,36.55148816,2738.0554127348014
+FBA_num1,6.666666666666667,fdp_c --> dhap_c + g3p_c,3744.5931792,36.55148816,102.44707856513166
+G6PDH2r,0.0,6pgc_c + nadp_c --> 6pgl_c + h_c + nadph_c,55800.0,36.55148816,1526.613629402497
+PGL,0.0,6pgl_c + h2o_c --> 6pgc_c + h_c,66240.0,36.55148816,1812.2381149036096
+GND,0.0,6pgc_c + nadp_c --> co2_c + nadph_c + ru5p__D_c,7920.0,36.55148816,216.6806441732577
+RPE_num1,0.0,ru5p__D_c --> xu5p__D_c,,,
+RPI_num1,0.0,r5p_c --> ru5p__D_c,7100.238272400002,36.55148816,194.2530558898044
+TKT1_num1,3.333333333333333,r5p_c + xu5p__D_c --> g3p_c + s7p_c,18290.41236,36.55148816,500.4013045908224
+TALA_num1,3.333333333333333,g3p_c + s7p_c --> e4p_c + f6p_c,4993.7715972000005,36.55148816,136.62293516861286
+TKT2_num1,0.0,e4p_c + xu5p__D_c --> f6p_c + g3p_c,32406.5525472,36.55148816,886.6000860305328
+EX_glc__D_e,0.0,glc__D_e --> ,,,
+EX_glc__D_c,0.0,glc__D_e --> glc__D_c,,,
+SK_f6p_c,0.0,f6p_c --> ,,,
+DM_e4p_c,10.0,e4p_c --> ,,,
+EX_pyr_c,10.0,pyr_c --> ,,,
+EX_pep_c,0.0,pep_c --> ,,,
+EX_adp_c,6.666666666666667,adp_c --> ,,,
+EX_atp_c,0.0,atp_c --> ,,,
+EX_h_c,6.666666666666667,h_c --> ,,,
+EX_h2o_c,0.0,h2o_c --> ,,,
+EX_co2_c,0.0,co2_c --> ,,,
+EX_nadph_c,0.0,nadph_c --> ,,,
+EX_nadp_c,0.0,nadp_c --> ,,,
+EX_dhap_c,6.666666666666667,dhap_c --> ,,,
+PGI_reverse,0.0,f6p_c --> g6p_c,32346.2699208,36.55148816,884.9508337172995
+FBA_reverse_num1,0.0,dhap_c + g3p_c --> fdp_c,3432.63331224,36.55148816,93.91227238721544
+G6PDH2r_reverse,0.0,6pgl_c + h_c + nadph_c --> 6pgc_c + nadp_c,2784.4115878800003,36.55148816,76.17778996279314
+RPE_reverse_num1,3.333333333333333,xu5p__D_c --> ru5p__D_c,,,
+RPI_reverse_num1,3.333333333333333,ru5p__D_c --> r5p_c,8559.3190644,36.55148816,234.1715616866966
+TKT1_reverse_num1,0.0,g3p_c + s7p_c --> r5p_c + xu5p__D_c,2176.89026364,36.55148816,59.55681623989998
+TALA_reverse_num1,0.0,e4p_c + f6p_c --> g3p_c + s7p_c,1700.7888621600005,36.55148816,46.531316446405405
+TKT2_reverse_num1,6.666666666666666,f6p_c + g3p_c --> e4p_c + xu5p__D_c,14980.684914,36.55148816,409.8515728942075
+EX_glc__D_e_reverse,10.0, --> glc__D_e,,,
+EX_glc__D_c_reverse,0.0,glc__D_c --> glc__D_e,,,
+EX_pyr_c_reverse,0.0, --> pyr_c,,,
+EX_pep_c_reverse,10.0, --> pep_c,,,
+EX_adp_c_reverse,0.0, --> adp_c,,,
+EX_atp_c_reverse,6.666666666666667, --> atp_c,,,
+EX_h_c_reverse,0.0, --> h_c,,,
+EX_h2o_c_reverse,0.0, --> h2o_c,,,
+EX_co2_c_reverse,0.0, --> co2_c,,,
+EX_nadph_c_reverse,0.0, --> nadph_c,,,
+EX_nadp_c_reverse,0.0, --> nadp_c,,,
+EX_dhap_c_reverse,0.0, --> dhap_c,,,
+GLCpts_num2,0.0,glc__D_e + pep_c --> g6p_c + pyr_c,,,
+GLCpts_num3,0.0,glc__D_e + pep_c --> g6p_c + pyr_c,,,
+PFK_num2,0.0,atp_c + f6p_c --> adp_c + fdp_c + h_c,100080.0,36.55148816,2738.0554127348014
+FBA_num2,0.0,fdp_c --> dhap_c + g3p_c,3744.5931792,36.55148816,102.44707856513166
+FBA_num3,0.0,fdp_c --> dhap_c + g3p_c,,,
+RPE_num2,0.0,ru5p__D_c --> xu5p__D_c,,,
+RPI_num2,0.0,r5p_c --> ru5p__D_c,7100.238272400002,36.55148816,194.2530558898044
+TKT1_num2,0.0,r5p_c + xu5p__D_c --> g3p_c + s7p_c,18290.41236,36.55148816,500.4013045908224
+TALA_num2,0.0,g3p_c + s7p_c --> e4p_c + f6p_c,4993.7715972000005,36.55148816,136.62293516861286
+TKT2_num2,0.0,e4p_c + xu5p__D_c --> f6p_c + g3p_c,32406.5525472,36.55148816,886.6000860305328
+FBA_reverse_num2,0.0,dhap_c + g3p_c --> fdp_c,3432.63331224,36.55148816,93.91227238721544
+FBA_reverse_num3,0.0,dhap_c + g3p_c --> fdp_c,,,
+RPE_reverse_num2,0.0,xu5p__D_c --> ru5p__D_c,,,
+RPI_reverse_num2,0.0,ru5p__D_c --> r5p_c,8559.3190644,36.55148816,234.1715616866966
+TKT1_reverse_num2,0.0,g3p_c + s7p_c --> r5p_c + xu5p__D_c,2176.89026364,36.55148816,59.55681623989998
+TALA_reverse_num2,0.0,e4p_c + f6p_c --> g3p_c + s7p_c,1700.7888621600005,36.55148816,46.531316446405405
+TKT2_reverse_num2,0.0,f6p_c + g3p_c --> e4p_c + xu5p__D_c,14980.684914,36.55148816,409.8515728942075

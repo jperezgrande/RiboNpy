@@ -1,0 +1,1345 @@
+{
+    "metabolites": [
+        {
+            "id": "glc__D_e",
+            "name": "glucose",
+            "compartment": "e",
+            "charge": 0,
+            "formula": "C6H12O6"
+        },
+        {
+            "id": "glc__D_c",
+            "name": "glucose",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C6H12O6"
+        },
+        {
+            "id": "g6p_c",
+            "name": "glucose-6-phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C6H11O9P"
+        },
+        {
+            "id": "pep_c",
+            "name": "phosphoenolpyruvate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C3H2O6P"
+        },
+        {
+            "id": "pyr_c",
+            "name": "pyruvate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C3H4O3"
+        },
+        {
+            "id": "f6p_c",
+            "name": "fructose-6-phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C6H11O9P"
+        },
+        {
+            "id": "adp_c",
+            "name": "adenosine diphosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C10H15N5O10P2"
+        },
+        {
+            "id": "atp_c",
+            "name": "adenosine triphosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C10H12N5O13P3"
+        },
+        {
+            "id": "fdp_c",
+            "name": "fructose-1,6-bisphosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C6H11O13P2"
+        },
+        {
+            "id": "h_c",
+            "name": "H+",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "H"
+        },
+        {
+            "id": "dhap_c",
+            "name": "dihydroxyacetone phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C3H5O6P"
+        },
+        {
+            "id": "g3p_c",
+            "name": "glyceraldehyde-3-phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C3H6O6P"
+        },
+        {
+            "id": "h2o_c",
+            "name": "Water",
+            "compartment": "c",
+            "charge": 0,
+            "formula": ""
+        },
+        {
+            "id": "6pgl_c",
+            "name": "6-phospho-D-glucono-1,5-lactone",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C6H10O8P"
+        },
+        {
+            "id": "6pgc_c",
+            "name": "6-phospho-D-gluconate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C6H10O8P"
+        },
+        {
+            "id": "nadp_c",
+            "name": "nicotinamide adenine dinucleotide phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C21H26N7O17P3"
+        },
+        {
+            "id": "nadph_c",
+            "name": "reduced nicotinamide adenine dinucleotide phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C21H25N7O14P2"
+        },
+        {
+            "id": "co2_c",
+            "name": "carbon dioxide",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "CO2"
+        },
+        {
+            "id": "ru5p__D_c",
+            "name": "ribulose-5-phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C5H11O9P"
+        },
+        {
+            "id": "xu5p__D_c",
+            "name": "",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C5H10O5P"
+        },
+        {
+            "id": "r5p_c",
+            "name": "D-Ribose 5-phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C5H10O5P"
+        },
+        {
+            "id": "s7p_c",
+            "name": "Sedoheptulose 7-phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C7H14O7P"
+        },
+        {
+            "id": "e4p_c",
+            "name": "D-Erythrose 4-phosphate",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C5H11O5P"
+        },
+        {
+            "id": "gtp_c",
+            "name": "GTP",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C10H12N5O14P3"
+        },
+        {
+            "id": "ctp_c",
+            "name": "CTP",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C9H12N3O14P3"
+        },
+        {
+            "id": "utp_c",
+            "name": "UTP",
+            "compartment": "c",
+            "charge": 0,
+            "formula": "C9H11N2O15P3"
+        }
+    ],
+    "reactions": [
+        {
+            "id": "GLCpts_num1",
+            "name": "Glucose Phosphate Translocator",
+            "metabolites": {
+                "g6p_c": 1.0,
+                "glc__D_e": -1.0,
+                "pep_c": -1.0,
+                "pyr_c": 1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2417 and b1101 and b2415 and b2416",
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "PGI",
+            "name": "Glucose-6-phosphate Isomerase",
+            "metabolites": {
+                "f6p_c": 1.0,
+                "g6p_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b4025",
+            "notes": {
+                "reflection": "PGI_reverse"
+            },
+            "kcat": 25560.0,
+            "kcat_MW": 699.2875334682407
+        },
+        {
+            "id": "PFK_num1",
+            "name": "Phosphofructokinase",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f6p_c": -1.0,
+                "fdp_c": 1.0,
+                "h_c": 1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b3916",
+            "kcat": 100080.0,
+            "kcat_MW": 2738.0554127348014
+        },
+        {
+            "id": "FBA_num1",
+            "name": "Fructose-bisphosphate Aldolase",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "fdp_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2097",
+            "notes": {
+                "reflection": "FBA_reverse"
+            },
+            "kcat": 3744.5931792,
+            "kcat_MW": 102.44707856513166
+        },
+        {
+            "id": "G6PDH2r",
+            "name": "Glucose-6-phosphate Dehydrogenase",
+            "metabolites": {
+                "6pgc_c": -1.0,
+                "6pgl_c": 1.0,
+                "h_c": 1.0,
+                "nadp_c": -1.0,
+                "nadph_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b1852",
+            "notes": {
+                "reflection": "G6PDH2r_reverse"
+            },
+            "kcat": 55800.0,
+            "kcat_MW": 1526.613629402497
+        },
+        {
+            "id": "PGL",
+            "name": "6-phosphogluconolactonase",
+            "metabolites": {
+                "6pgc_c": 1.0,
+                "6pgl_c": -1.0,
+                "h2o_c": -1.0,
+                "h_c": 1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b0767",
+            "kcat": 66240.0,
+            "kcat_MW": 1812.2381149036096
+        },
+        {
+            "id": "GND",
+            "name": "6-phosphogluconate Dehydrogenase",
+            "metabolites": {
+                "6pgc_c": -1.0,
+                "co2_c": 1.0,
+                "nadp_c": -1.0,
+                "nadph_c": 1.0,
+                "ru5p__D_c": 1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2029",
+            "kcat": 7920.0,
+            "kcat_MW": 216.6806441732577
+        },
+        {
+            "id": "RPE_num1",
+            "name": "Ribulose-5-phosphate-3-epimerase",
+            "metabolites": {
+                "ru5p__D_c": -1.0,
+                "xu5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b3386",
+            "notes": {
+                "reflection": "RPE_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "RPI_num1",
+            "name": "Ribose-5-phosphate isomerase",
+            "metabolites": {
+                "r5p_c": -1.0,
+                "ru5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2914",
+            "notes": {
+                "reflection": "RPI_reverse"
+            },
+            "kcat": 7100.238272400002,
+            "kcat_MW": 194.2530558898044
+        },
+        {
+            "id": "TKT1_num1",
+            "name": "Transketolase",
+            "metabolites": {
+                "g3p_c": 1.0,
+                "r5p_c": -1.0,
+                "s7p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2935",
+            "notes": {
+                "reflection": "TKT1_reverse"
+            },
+            "kcat": 18290.41236,
+            "kcat_MW": 500.4013045908224
+        },
+        {
+            "id": "TALA_num1",
+            "name": "Transaldolase",
+            "metabolites": {
+                "e4p_c": 1.0,
+                "f6p_c": 1.0,
+                "g3p_c": -1.0,
+                "s7p_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2464",
+            "notes": {
+                "reflection": "TALA_reverse"
+            },
+            "kcat": 4993.7715972000005,
+            "kcat_MW": 136.62293516861286
+        },
+        {
+            "id": "TKT2_num1",
+            "name": "Transketolase",
+            "metabolites": {
+                "e4p_c": -1.0,
+                "f6p_c": 1.0,
+                "g3p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2935",
+            "notes": {
+                "reflection": "TKT2_reverse"
+            },
+            "kcat": 32406.5525472,
+            "kcat_MW": 886.6000860305328
+        },
+        {
+            "id": "EX_glc__D_e",
+            "name": "Glucose Exchange",
+            "metabolites": {
+                "glc__D_e": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_glc__D_e_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_glc__D_c",
+            "name": "Glucose cytosol exchange",
+            "metabolites": {
+                "glc__D_c": 1.0,
+                "glc__D_e": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_glc__D_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "SK_f6p_c",
+            "name": "fructose-6-phosphate sink",
+            "metabolites": {
+                "f6p_c": -1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 0.0,
+            "gene_reaction_rule": "",
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "DM_e4p_c",
+            "name": "D-Erythrose 4-phosphate sink",
+            "metabolites": {
+                "e4p_c": -1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "objective_coefficient": 1.0,
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_pyr_c",
+            "name": "pyruvate exchange",
+            "metabolites": {
+                "pyr_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_pyr_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_pep_c",
+            "name": "phosphoenolpyruvate exchange",
+            "metabolites": {
+                "pep_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_pep_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_adp_c",
+            "name": "adenosine diphosphate exchange",
+            "metabolites": {
+                "adp_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_adp_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_atp_c",
+            "name": "adenosine triphosphate exchange",
+            "metabolites": {
+                "atp_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_atp_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_h_c",
+            "name": "hydrogen exchange",
+            "metabolites": {
+                "h_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_h_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_h2o_c",
+            "name": "water exchange",
+            "metabolites": {
+                "h2o_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_h2o_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_co2_c",
+            "name": "carbon dioxide exchange",
+            "metabolites": {
+                "co2_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_co2_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_nadph_c",
+            "name": "NADPH exchange",
+            "metabolites": {
+                "nadph_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_nadph_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_nadp_c",
+            "name": "NADP exchange",
+            "metabolites": {
+                "nadp_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_nadp_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_dhap_c",
+            "name": "dihydroxyacetone phosphate exchange",
+            "metabolites": {
+                "dhap_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_dhap_c_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "PGI_reverse",
+            "name": "",
+            "metabolites": {
+                "f6p_c": -1.0,
+                "g6p_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b4025",
+            "notes": {
+                "reflection": "PGI"
+            },
+            "kcat": 32346.2699208,
+            "kcat_MW": 884.9508337172995
+        },
+        {
+            "id": "FBA_reverse_num1",
+            "name": "",
+            "metabolites": {
+                "dhap_c": -1.0,
+                "fdp_c": 1.0,
+                "g3p_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2097",
+            "notes": {
+                "reflection": "FBA"
+            },
+            "kcat": 3432.63331224,
+            "kcat_MW": 93.91227238721544
+        },
+        {
+            "id": "G6PDH2r_reverse",
+            "name": "",
+            "metabolites": {
+                "6pgc_c": 1.0,
+                "6pgl_c": -1.0,
+                "h_c": -1.0,
+                "nadp_c": 1.0,
+                "nadph_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b1852",
+            "notes": {
+                "reflection": "G6PDH2r"
+            },
+            "kcat": 2784.4115878800003,
+            "kcat_MW": 76.17778996279314
+        },
+        {
+            "id": "RPE_reverse_num1",
+            "name": "",
+            "metabolites": {
+                "ru5p__D_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b3386",
+            "notes": {
+                "reflection": "RPE"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "RPI_reverse_num1",
+            "name": "",
+            "metabolites": {
+                "r5p_c": 1.0,
+                "ru5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2914",
+            "notes": {
+                "reflection": "RPI"
+            },
+            "kcat": 8559.3190644,
+            "kcat_MW": 234.1715616866966
+        },
+        {
+            "id": "TKT1_reverse_num1",
+            "name": "",
+            "metabolites": {
+                "g3p_c": -1.0,
+                "r5p_c": 1.0,
+                "s7p_c": -1.0,
+                "xu5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2935",
+            "notes": {
+                "reflection": "TKT1"
+            },
+            "kcat": 2176.89026364,
+            "kcat_MW": 59.55681623989998
+        },
+        {
+            "id": "TALA_reverse_num1",
+            "name": "",
+            "metabolites": {
+                "e4p_c": -1.0,
+                "f6p_c": -1.0,
+                "g3p_c": 1.0,
+                "s7p_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2464",
+            "notes": {
+                "reflection": "TALA"
+            },
+            "kcat": 1700.7888621600005,
+            "kcat_MW": 46.531316446405405
+        },
+        {
+            "id": "TKT2_reverse_num1",
+            "name": "",
+            "metabolites": {
+                "e4p_c": 1.0,
+                "f6p_c": -1.0,
+                "g3p_c": -1.0,
+                "xu5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2935",
+            "notes": {
+                "reflection": "TKT2"
+            },
+            "kcat": 14980.684914,
+            "kcat_MW": 409.8515728942075
+        },
+        {
+            "id": "EX_glc__D_e_reverse",
+            "name": "",
+            "metabolites": {
+                "glc__D_e": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 10.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_glc__D_e"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_glc__D_c_reverse",
+            "name": "",
+            "metabolites": {
+                "glc__D_c": -1.0,
+                "glc__D_e": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_glc__D_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_pyr_c_reverse",
+            "name": "",
+            "metabolites": {
+                "pyr_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_pyr_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_pep_c_reverse",
+            "name": "",
+            "metabolites": {
+                "pep_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_pep_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_adp_c_reverse",
+            "name": "",
+            "metabolites": {
+                "adp_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_adp_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_atp_c_reverse",
+            "name": "",
+            "metabolites": {
+                "atp_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_atp_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_h_c_reverse",
+            "name": "",
+            "metabolites": {
+                "h_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_h_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_h2o_c_reverse",
+            "name": "",
+            "metabolites": {
+                "h2o_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_h2o_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_co2_c_reverse",
+            "name": "",
+            "metabolites": {
+                "co2_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_co2_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_nadph_c_reverse",
+            "name": "",
+            "metabolites": {
+                "nadph_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_nadph_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_nadp_c_reverse",
+            "name": "",
+            "metabolites": {
+                "nadp_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_nadp_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "EX_dhap_c_reverse",
+            "name": "",
+            "metabolites": {
+                "dhap_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "",
+            "notes": {
+                "reflection": "EX_dhap_c"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "GLCpts_num2",
+            "name": "Glucose Phosphate Translocator",
+            "metabolites": {
+                "g6p_c": 1.0,
+                "glc__D_e": -1.0,
+                "pep_c": -1.0,
+                "pyr_c": 1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b1817 and b1818 and b1819 and b2415 and b2416",
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "GLCpts_num3",
+            "name": "Glucose Phosphate Translocator",
+            "metabolites": {
+                "g6p_c": 1.0,
+                "glc__D_e": -1.0,
+                "pep_c": -1.0,
+                "pyr_c": 1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2417 and b1621 and b2415 and b2416",
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "PFK_num2",
+            "name": "Phosphofructokinase",
+            "metabolites": {
+                "adp_c": 1.0,
+                "atp_c": -1.0,
+                "f6p_c": -1.0,
+                "fdp_c": 1.0,
+                "h_c": 1.0
+            },
+            "lower_bound": 0.0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b1723",
+            "kcat": 100080.0,
+            "kcat_MW": 2738.0554127348014
+        },
+        {
+            "id": "FBA_num2",
+            "name": "Fructose-bisphosphate Aldolase",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "fdp_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b1773",
+            "notes": {
+                "reflection": "FBA_reverse"
+            },
+            "kcat": 3744.5931792,
+            "kcat_MW": 102.44707856513166
+        },
+        {
+            "id": "FBA_num3",
+            "name": "Fructose-bisphosphate Aldolase",
+            "metabolites": {
+                "dhap_c": 1.0,
+                "fdp_c": -1.0,
+                "g3p_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2925",
+            "notes": {
+                "reflection": "FBA_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "RPE_num2",
+            "name": "Ribulose-5-phosphate-3-epimerase",
+            "metabolites": {
+                "ru5p__D_c": -1.0,
+                "xu5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b4301",
+            "notes": {
+                "reflection": "RPE_reverse"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "RPI_num2",
+            "name": "Ribose-5-phosphate isomerase",
+            "metabolites": {
+                "r5p_c": -1.0,
+                "ru5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b4090",
+            "notes": {
+                "reflection": "RPI_reverse"
+            },
+            "kcat": 7100.238272400002,
+            "kcat_MW": 194.2530558898044
+        },
+        {
+            "id": "TKT1_num2",
+            "name": "Transketolase",
+            "metabolites": {
+                "g3p_c": 1.0,
+                "r5p_c": -1.0,
+                "s7p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2465",
+            "notes": {
+                "reflection": "TKT1_reverse"
+            },
+            "kcat": 18290.41236,
+            "kcat_MW": 500.4013045908224
+        },
+        {
+            "id": "TALA_num2",
+            "name": "Transaldolase",
+            "metabolites": {
+                "e4p_c": 1.0,
+                "f6p_c": 1.0,
+                "g3p_c": -1.0,
+                "s7p_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b0008",
+            "notes": {
+                "reflection": "TALA_reverse"
+            },
+            "kcat": 4993.7715972000005,
+            "kcat_MW": 136.62293516861286
+        },
+        {
+            "id": "TKT2_num2",
+            "name": "Transketolase",
+            "metabolites": {
+                "e4p_c": -1.0,
+                "f6p_c": 1.0,
+                "g3p_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2465",
+            "notes": {
+                "reflection": "TKT2_reverse"
+            },
+            "kcat": 32406.5525472,
+            "kcat_MW": 886.6000860305328
+        },
+        {
+            "id": "FBA_reverse_num2",
+            "name": "",
+            "metabolites": {
+                "dhap_c": -1.0,
+                "fdp_c": 1.0,
+                "g3p_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b1773",
+            "notes": {
+                "reflection": "FBA"
+            },
+            "kcat": 3432.63331224,
+            "kcat_MW": 93.91227238721544
+        },
+        {
+            "id": "FBA_reverse_num3",
+            "name": "",
+            "metabolites": {
+                "dhap_c": -1.0,
+                "fdp_c": 1.0,
+                "g3p_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2925",
+            "notes": {
+                "reflection": "FBA"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "RPE_reverse_num2",
+            "name": "",
+            "metabolites": {
+                "ru5p__D_c": 1.0,
+                "xu5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b4301",
+            "notes": {
+                "reflection": "RPE"
+            },
+            "kcat": "",
+            "kcat_MW": ""
+        },
+        {
+            "id": "RPI_reverse_num2",
+            "name": "",
+            "metabolites": {
+                "r5p_c": 1.0,
+                "ru5p__D_c": -1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b4090",
+            "notes": {
+                "reflection": "RPI"
+            },
+            "kcat": 8559.3190644,
+            "kcat_MW": 234.1715616866966
+        },
+        {
+            "id": "TKT1_reverse_num2",
+            "name": "",
+            "metabolites": {
+                "g3p_c": -1.0,
+                "r5p_c": 1.0,
+                "s7p_c": -1.0,
+                "xu5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2465",
+            "notes": {
+                "reflection": "TKT1"
+            },
+            "kcat": 2176.89026364,
+            "kcat_MW": 59.55681623989998
+        },
+        {
+            "id": "TALA_reverse_num2",
+            "name": "",
+            "metabolites": {
+                "e4p_c": -1.0,
+                "f6p_c": -1.0,
+                "g3p_c": 1.0,
+                "s7p_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b0008",
+            "notes": {
+                "reflection": "TALA"
+            },
+            "kcat": 1700.7888621600005,
+            "kcat_MW": 46.531316446405405
+        },
+        {
+            "id": "TKT2_reverse_num2",
+            "name": "",
+            "metabolites": {
+                "e4p_c": 1.0,
+                "f6p_c": -1.0,
+                "g3p_c": -1.0,
+                "xu5p__D_c": 1.0
+            },
+            "lower_bound": 0,
+            "upper_bound": 1000.0,
+            "gene_reaction_rule": "b2465",
+            "notes": {
+                "reflection": "TKT2"
+            },
+            "kcat": 14980.684914,
+            "kcat_MW": 409.8515728942075
+        }
+    ],
+    "genes": [
+        {
+            "id": "b2415",
+            "name": "G_b2415"
+        },
+        {
+            "id": "b2417",
+            "name": "G_b2417"
+        },
+        {
+            "id": "b1818",
+            "name": "G_b1818"
+        },
+        {
+            "id": "b1621",
+            "name": "G_b1621"
+        },
+        {
+            "id": "b1817",
+            "name": "G_b1817"
+        },
+        {
+            "id": "b2416",
+            "name": "G_b2416"
+        },
+        {
+            "id": "b1819",
+            "name": "G_b1819"
+        },
+        {
+            "id": "b1101",
+            "name": "G_b1101"
+        },
+        {
+            "id": "b4025",
+            "name": "G_b4025"
+        },
+        {
+            "id": "b3916",
+            "name": "G_b3916"
+        },
+        {
+            "id": "b1723",
+            "name": "G_b1723"
+        },
+        {
+            "id": "b2925",
+            "name": "G_b2925"
+        },
+        {
+            "id": "b2097",
+            "name": "G_b2097"
+        },
+        {
+            "id": "b1773",
+            "name": "G_b1773"
+        },
+        {
+            "id": "b1852",
+            "name": "G_b1852"
+        },
+        {
+            "id": "b0767",
+            "name": "G_b0767"
+        },
+        {
+            "id": "b2029",
+            "name": "G_b2029"
+        },
+        {
+            "id": "b4301",
+            "name": "G_b4301"
+        },
+        {
+            "id": "b3386",
+            "name": "G_b3386"
+        },
+        {
+            "id": "b2914",
+            "name": "G_b2914"
+        },
+        {
+            "id": "b4090",
+            "name": "G_b4090"
+        },
+        {
+            "id": "b2935",
+            "name": "G_b2935"
+        },
+        {
+            "id": "b2465",
+            "name": "G_b2465"
+        },
+        {
+            "id": "b2464",
+            "name": "G_b2464"
+        },
+        {
+            "id": "b0008",
+            "name": "G_b0008"
+        }
+    ],
+    "id": "toy_model",
+    "name": "",
+    "compartments": {
+        "c": "",
+        "e": ""
+    },
+    "version": "1",
+    "enzyme_constraint": {
+        "enzyme_mass_fraction": 0.406,
+        "total_protein_fraction": 0.56,
+        "average_saturation": 1,
+        "lowerbound": 0,
+        "upperbound": 0.227,
+        "kcat_MW": {
+            "PGI": 699.2875334682407,
+            "PFK_num1": 2738.0554127348014,
+            "FBA_num1": 102.44707856513166,
+            "G6PDH2r": 1526.613629402497,
+            "PGL": 1812.2381149036096,
+            "GND": 216.6806441732577,
+            "RPI_num1": 194.2530558898044,
+            "TKT1_num1": 500.4013045908224,
+            "TALA_num1": 136.62293516861286,
+            "TKT2_num1": 886.6000860305328,
+            "PGI_reverse": 884.9508337172995,
+            "FBA_reverse_num1": 93.91227238721544,
+            "G6PDH2r_reverse": 76.17778996279314,
+            "RPI_reverse_num1": 234.1715616866966,
+            "TKT1_reverse_num1": 59.55681623989998,
+            "TALA_reverse_num1": 46.531316446405405,
+            "TKT2_reverse_num1": 409.8515728942075,
+            "PFK_num2": 2738.0554127348014,
+            "FBA_num2": 102.44707856513166,
+            "RPI_num2": 194.2530558898044,
+            "TKT1_num2": 500.4013045908224,
+            "TALA_num2": 136.62293516861286,
+            "TKT2_num2": 886.6000860305328,
+            "FBA_reverse_num2": 93.91227238721544,
+            "RPI_reverse_num2": 234.1715616866966,
+            "TKT1_reverse_num2": 59.55681623989998,
+            "TALA_reverse_num2": 46.531316446405405,
+            "TKT2_reverse_num2": 409.8515728942075
+        }
+    }
+}

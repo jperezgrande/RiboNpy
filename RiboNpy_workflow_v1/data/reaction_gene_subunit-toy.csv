@@ -1,0 +1,21 @@
+,name,gene_reaction_rule,subunit_num
+FBA,Fructose-bisphosphate aldolase,b2925 or b2097,2 or 10 
+PGI,Glucose-6-phosphate isomerase,b4025,2
+PGL,6-phosphogluconolactonase,b0767,1
+RPE,Ribulose 5-phosphate 3-epimerase,b3386,1
+TALA,Transaldolase,b0008 or b2464,2 or 1 
+TKT1,Transketolase,b2935 or b2465,2 or 1 
+GND,Phosphogluconate dehydrogenase,b2029,2
+G6PDH2r,Glucose 6-phosphate dehydrogenase,b1852,1
+TKT2,Transketolase,b2935 or b2465,2 or 1 
+GLCptspp,D-glucose transport via PEP:Pyr PTS (periplasm),( b2415 and b1101 and b2416 and b2417 ) or ( b2417 and b1621 and b2415 and b2416 ) or ( b1817 and b2415 and b1819 and b1818 and b2416 ),( 1 and 2 and 2 and 1 ) or ( 1 and 1 and 1 and 2 ) or ( 2 and 1 and 2 and 1 and 2 ) 
+PFK,Phosphofructokinase,b3916 or b1723,4 or 2 
+RPI,Ribose-5-phosphate isomerase,b2914 or b4090,2 or 2 
+FBA_reverse,Fructose-bisphosphate aldolase,b2925 or b2097,2 or 10 
+PGI_reverse,Glucose-6-phosphate isomerase,b4025,2
+RPE_reverse,Ribulose 5-phosphate 3-epimerase,b3386,1
+TALA_reverse,Transaldolase,b0008 or b2464,2 or 1 
+TKT1_reverse,Transketolase,b2935 or b2465,2 or 1 
+G6PDH2r_reverse,Glucose 6-phosphate dehydrogenase,b1852,1
+TKT2_reverse,Transketolase,b2935 or b2465,2 or 1 
+RPI_reverse,Ribose-5-phosphate isomerase,b2914 or b4090,2 or 2 
